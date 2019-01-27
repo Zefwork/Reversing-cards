@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Card</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="card">
+			<div class="front" onclick="getCard(0)"><img class="img1" src="https://lp.rustaro.ru/wp-content/uploads/transformation/cards/1.jpg" alt=""></div>
+			<div class="back"><img class="img1" src="" name="randimg1"></div>
+		</div>
+		<div class="card">
+			<div class="front" onclick="getCard(1)"><img class="img1" src="https://lp.rustaro.ru/wp-content/uploads/transformation/cards/1.jpg" alt=""></div>
+			<div class="back" onclick="showStuff('answer2'); return false;"><img class="img1" src="" name="randimg2"></div>
+		</div>
+		<div class="card">
+			<div class="front" onclick="getCard(2)"><img class="img1" src="https://lp.rustaro.ru/wp-content/uploads/transformation/cards/1.jpg" alt=""></div>
+			<div class="back" onclick="showStuff('answer1'); return false;"><img class="img1" src="" name="randimg3"></div>
+		</div>
+	</div>
+	<script src="jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
